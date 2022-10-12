@@ -12,4 +12,4 @@ COPY api/server.js ./api/
 
 # EXPOSE 80
 
-CMD ["npm run starts", "./api/server.js"]
+CMD ["npm run start", "./api/server.js"]
